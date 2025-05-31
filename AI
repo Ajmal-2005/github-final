@@ -699,7 +699,7 @@ sort_by_heuristic(Paths, SortedPaths) :-
 
 evaluate_path([Node | _], H) :-
     heuristic(Node, H).
-
+#best_first_search_ordered(a, i, Path).
 
 28 Write the prolog program for Medical Diagnosis 
 
